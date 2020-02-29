@@ -1,0 +1,17 @@
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
+</script>
+
+<h1>Filter Fun</h1>
+<canvas id = "can"></canvas>
+<h2>Image Loader</h2>
+<input id = "img" type = "file" accepted = "/*image" onchange="loadImage()">
+
+<h2>Choose Filter</h2>
+<p>
+<input id = "Grayscale" type = "button" value = "Grayscale" onclick = "doGray()">
+<input id = "Red" value = "Red" type = "button" onclick = "doRed()">
+<input id = "Rainbow" value = "Rainbow" type = "button" onclick = "doRainbow()">
+</p>
+<p>
+    <input id = "reset" type = "button" onclick = "reset()" value = "Reset">
+</p>

@@ -1,0 +1,9 @@
+canvas{
+    height: 200px;
+    border: 1px solid lightgray;
+}
+
+input{
+    font-size: 15px;
+    border-radius: 3px;
+}
